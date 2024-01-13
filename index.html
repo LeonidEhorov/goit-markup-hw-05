@@ -22,17 +22,6 @@
 
   <body>
 
-
-
-
-
-
-
-
-
-
-
-
     <header class="header">
       <div class="container">
         <nav class="header-nav">
@@ -98,12 +87,14 @@
             </li>
 
             <li class="section-item">
+              <div class="section-item-svg">
               <svg class="section-images" width="64" height="64">
                 <use
                   class="section-images-link"
                   href="./images/symbol (1).svg#icon-clock"
                 ></use>
               </svg>
+            </div>
 
               <h3 class="section-titel">Punctuality</h3>
               <p class="section-text">
@@ -113,12 +104,14 @@
             </li>
 
             <li class="section-item">
+              <div class="section-item-svg">
               <svg class="section-images" width="64" height="64">
                 <use
                   class="section-images-link"
                   href="./images/symbol (1).svg#icon-diagram"
                 ></use>
               </svg>
+            </div>
 
               <h3 class="section-titel">Diligence</h3>
               <p class="section-text">
@@ -128,12 +121,14 @@
             </li>
 
             <li class="section-item">
+              <div class="section-item-svg">
               <svg class="section-images" width="64" height="64">
                 <use
                   class="section-images-link"
                   href="./images/symbol (1).svg#icon-astronaut"
                 ></use>
               </svg>
+            </div>
 
               <h3 class="section-titel">Technologies</h3>
               <p class="section-text">
@@ -646,16 +641,93 @@
               </li>
             </ul>
           </div>
-        </div>
+      
+      
+      
+      <div>
+        <p class="footer-text-ribe">Subscribe</p>
+        
+        <a  class="footer-emil" href="">E-mail</a>
+        <button class="footer-btn" type="button">Subscribe  <svg class="footer-subscr" width="24" height="24">
+          <use
+            class="footer-subs"
+            href="./images/symbol (1).svg#icon-Frame"
+          ></use>
+        </svg></button>
       </div>
+      
+    </div>
+    </div>
     </footer>
     <div class="backdrop is-hidden" data-modal >
       <div class="modal">
+        
         <button type="button" class="modal-button" data-modal-close>
-          <svg   class="" width="8"  height="8">
-            <use class="" href="./images/symbol (1).svg#icon-close-black-18dp-2-1"></use>
+          <svg   class="modal-icon" width="8"  height="8">
+            <use  href="./images/symbol (1).svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+        <div class="modal-blok">
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+      </div>
+    
+      <form class="modal-form">
+        <div class="modal-list">
+        <label class="modal-label" for="user-name">Name</label>
+        <div class="modal-items">
+        <input class="modal-input"  type="text" id="user-name" name="user-name" required placeholder="" >
+    
+        <svg class="modal-svg"  width="18" height="18">
+          <use class="modal-use" href="./images/symbol (1).svg#icon-person"></use>
+        </svg>
+      </div>
+      </div>
+      <div class="modal-list">
+        <label class="modal-label" for="user-phone">Phone</label>
+        <div class="modal-items">
+        <input class="modal-input"  type="tel" id="user-phone" name="user-phone" required placeholder="" >
+       
+        <svg class="modal-svg"  width="18" height="24">
+          <use class="modal-use" href="./images/symbol (1).svg#icon-phone"></use>
+        </svg>
+      </div>
+      </div>
+        <div class="modal-list">
+        <label class="modal-label" for="user-mail">Email</label>
+        <div class="modal-items">
+        <input  class="modal-input"  type="email"  id="user-mail" name="user-mail" placeholder="" >
+       
+        <svg class="modal-svg"  width="18" height="24">
+          <use class="modal-use" href="./images/symbol (1).svg#icon-email"></use>
+        </svg>
+      </div>
+      </div>
+      <div class="modal-list">
+        <label class="modal-lab">Comment</label>
+        <textarea name="modal-text" placeholder="Text input" class="modal-textarea "></textarea>
+      </div>
+      <div class="modal-list">
+        <input type="checkbox" name="policy" id="policy" class="input-check  visually-hidden " value="true">
+  
+      <label class="modal-text-title" for="policy" >
+
+        
+          <svg class="modal-chec"  width="16" height="16">
+            <use class="modal-box" href="./images/symbol (1).svg#icon-checkbox"></use>
+          </svg>
+          <span></span> I accept the terms and conditions of the <a href="">Privacy Policy</a>
+
+     
+    </label>
+  </div>
+
+<div class="modal-button-btn">
+      <button type="submit" class="modal-btn">Send</button>
+    </div>
+
+      </form>
+   
+
 
       </div>
 
